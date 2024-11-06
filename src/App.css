@@ -28,6 +28,52 @@
   color: #61dafb;
 }
 
+/* New Styles for Prediction Form */
+.form-control {
+  border-radius: 5px;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important; /* Ensure light background */
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Graph Section */
+.result-graph {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0f0f0; /* Light gray background for contrast */
+  border: 1px solid #ddd; /* Add subtle border */
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
